@@ -1,0 +1,22 @@
+.imageupload {
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+  width: 60%;
+  background-color: white;
+  border-top: 1px solid lightgray;
+  margin-bottom: 30px;
+}
+.imageupload__progressbar {
+  width: 100%;
+}
+.imageupload input {
+  padding: 10px;
+  margin: 10px 0;
+}
+
+@media (max-width: 600px) {
+  .imageupload {
+    width: 90%;
+  }
+}
